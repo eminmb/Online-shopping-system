@@ -5,10 +5,6 @@ import java.util.List;
 
 public class Wishlist {
     private List<Product> items;
-    public Wishlist() {
-        this.items = new ArrayList<>();
-    }
-    public void addItem(Product product) {
         if (!items.contains(product)) {
             items.add(product);
             System.out.println(product.getName() + " added to wishlist.");
@@ -33,7 +29,7 @@ public class Wishlist {
                 System.out.println("- " + item.getName());
             }
         }
-    }
+
     public List<Product> getItems() {
         return items;
     }
