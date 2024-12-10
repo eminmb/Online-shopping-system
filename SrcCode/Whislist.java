@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Wishlist {
-    private List<Product> items;
-        if (!items.contains(product)) {
-            items.add(product);
+    
             System.out.println(product.getName() + " added to wishlist.");
         } else {
             System.out.println(product.getName() + " is already in the wishlist.");
